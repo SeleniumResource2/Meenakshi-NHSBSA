@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features= {"D:\\SeleniumProjects\\NHSBSA\\src\\test\\resources\\features\\Test1.feature"},
+		features= {"D:\\SeleniumProjects\\NHSBSA\\src\\test\\resources\\features\\NHSFeature.feature"},
 		glue={"steps"},
 		plugin= {
 				"pretty", "html:reports/myreport.html"			
